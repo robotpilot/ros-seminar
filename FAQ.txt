@@ -1,0 +1,36 @@
+cs
+git clone https://github.com/robotpilot/myahrs_driver.git
+cm
+sudo chmod a+rw /dev/ttyACM0
+roslaunch myahrs_driver myahrs_driver.launch
+
+sudo apt-get install ros-kinetic-laser*
+cs
+git clone https://github.com/ros-drivers/urg_c.git
+git clone https://github.com/ros-drivers/urg_node.git
+cm
+
+sudo apt-get install libv4l-dev
+cs
+git clone https://github.com/ktossell/camera_umd.git
+cm
+rosrun uvc_camera uvc_camera_node
+rqt_image_view
+
+roslaunch teleop_twist_joy teleop.launch
+
+https://github.com/robotpilot/ros-seminar
+
+sudo apt-get install ros-kinetic-ecl*
+cs
+git clone https://github.com/yujinrobot/kobuki_soft.git
+git clone https://github.com/yujinrobot/kobuki_msgs.git
+cd ~/Download (cd ~/다운로드)
+git clone https://github.com/yujinrobot/kobuki.git
+[kobuki_description, kobuki_keyop 패키지만 cs 폴더에 옮길것]
+cm
+
+roslaunch kobuki_softnode full.launch --screen
+roslaunch kobuki_keyop keyop.launch
+rviz
+디스플레이 추가 [odom]
