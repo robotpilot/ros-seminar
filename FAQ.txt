@@ -1,15 +1,18 @@
+1. myahrs_driver Kinetic 버전 설치
 cs
 git clone https://github.com/robotpilot/myahrs_driver.git
 cm
 sudo chmod a+rw /dev/ttyACM0
 roslaunch myahrs_driver myahrs_driver.launch
 
+2. Hokuyo LRF Kinetic 버전 설치
 sudo apt-get install ros-kinetic-laser*
 cs
 git clone https://github.com/ros-drivers/urg_c.git
 git clone https://github.com/ros-drivers/urg_node.git
 cm
 
+3. uvc_camera_node Kinetic 버전 설치
 sudo apt-get install libv4l-dev
 cs
 git clone https://github.com/ktossell/camera_umd.git
@@ -17,10 +20,7 @@ cm
 rosrun uvc_camera uvc_camera_node
 rqt_image_view
 
-roslaunch teleop_twist_joy teleop.launch
-
-https://github.com/robotpilot/ros-seminar
-
+4. Kobuki관련 Kinetic 버전 설치
 sudo apt-get install ros-kinetic-ecl*
 cs
 git clone https://github.com/yujinrobot/kobuki_soft.git
