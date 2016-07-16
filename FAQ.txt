@@ -34,3 +34,10 @@ roslaunch kobuki_softnode full.launch --screen
 roslaunch kobuki_keyop keyop.launch
 rviz
 디스플레이 추가 [odom]
+
+5. RPLIDAR
+cs
+https://github.com/robopeak/rplidar_ros.git
+cm
+sudo chmod a+rw /dev/ttyUSB0
+roslaunch rplidar_ros rplidar.launch
