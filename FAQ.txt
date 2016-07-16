@@ -8,6 +8,7 @@ roslaunch myahrs_driver myahrs_driver.launch
 2. Hokuyo LRF Kinetic 버전 설치
 sudo apt-get install ros-kinetic-laser*
 cs
+git clone https://github.com/ros-perception/laser_proc.git
 git clone https://github.com/ros-drivers/urg_c.git
 git clone https://github.com/ros-drivers/urg_node.git
 cm
