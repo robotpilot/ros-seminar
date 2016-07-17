@@ -25,7 +25,6 @@ rqt_image_view
 
 sudo apt-get install ros-kinetic-ecl*
 cs
-git clone https://github.com/yujinrobot/kobuki_soft
 git clone https://github.com/yujinrobot/kobuki_soft.git
 git clone https://github.com/yujinrobot/kobuki_msgs.git
 cd ~/Download (cd ~/다운로드)
