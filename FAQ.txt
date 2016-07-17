@@ -22,8 +22,10 @@ rosrun uvc_camera uvc_camera_node
 rqt_image_view
 
 4. Kobuki관련 Kinetic 버전 설치
+
 sudo apt-get install ros-kinetic-ecl*
 cs
+git clone https://github.com/yujinrobot/kobuki_soft
 git clone https://github.com/yujinrobot/kobuki_soft.git
 git clone https://github.com/yujinrobot/kobuki_msgs.git
 cd ~/Download (cd ~/다운로드)
