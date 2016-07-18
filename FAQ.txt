@@ -41,11 +41,7 @@ rviz
 sudo apt-get install ros-kinetic-laser*
 cs
 git clone https://github.com/ros-perception/laser_proc.git
-git clone https://github.com/ros-drivers/urg_c.git
-git clone https://github.com/ros-drivers/urg_node.git
-cm
-cs
-https://github.com/robopeak/rplidar_ros.git
+git clone https://github.com/robopeak/rplidar_ros.git
 cm
 sudo chmod a+rw /dev/ttyUSB0
 roslaunch rplidar_ros rplidar.launch
