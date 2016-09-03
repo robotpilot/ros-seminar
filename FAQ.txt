@@ -45,3 +45,7 @@ git clone https://github.com/robopeak/rplidar_ros.git
 cm
 sudo chmod a+rw /dev/ttyUSB0
 roslaunch rplidar_ros rplidar.launch
+
+6. astra
+sudo apt-get install ros-kinetic-astra-camera ros-kinetic-astra-launch
+roslaunch astra_launch astra.launch
