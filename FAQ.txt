@@ -48,6 +48,7 @@ roslaunch rplidar_ros rplidar.launch
 
 6. astra
 sudo apt-get install ros-kinetic-astra-camera ros-kinetic-astra-launch
+wget https://raw.githubusercontent.com/tfoote/ros_astra_camera/master/orbbec-usb.rules
 wget https://raw.githubusercontent.com/tfoote/ros_astra_camera/master/install.sh
 sudo ./install.sh
 roslaunch astra_launch astra.launch
