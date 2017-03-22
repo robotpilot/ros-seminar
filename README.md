@@ -3,7 +3,7 @@
 * ROS 02 Hello World
 * ROS 03 ROS 기본 프로그래밍
 * ROS 04 실습으로 알아보는 ROS의 다양한 개발도구
-* ROS 05 ROS 8년간의 분석
+* ROS 05 ROS 9년간의 분석
 * ROS 06 ROS 를 활용한 SLAM과 내비게이션
 * ROS 07 로봇 암 모델링과 MoveIt! 사용법
 * ROS 08 ROS의 미래 ROS 2.0의 핵심 특징 3가지
@@ -11,6 +11,7 @@
 * Appendix B Cheatsheet
 * Appendix C ROS 변수 형태
 * Appendix D ROS 표준 단위
+* Appendix E ROSSERIAL and OpenCR
 * FAQ : 자주있는 질문 모음
 
 # 2. 라이선스
