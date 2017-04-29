@@ -1,3 +1,12 @@
+source /opt/ros/kinetic/setup.bash
+source ~/catkin_ws/devel/setup.bash
+
+export ROS_MASTER_URI=http://localhost:11311
+export ROS_HOSTNAME=localhost
+
+
+
+
 1. myahrs_driver Kinetic 버전 설치
 cs
 git clone https://github.com/robotpilot/myahrs_driver.git
