@@ -14,7 +14,6 @@
 * 13_매니퓰레이터
 
 * Appendix_A_ROS_10년간의_분석
-* Appendix_A_ROS_10년간의_분석
 * Appendix_B_왜_로봇_소프트웨어_플랫폼을_써야_하는가
 * Appendix_C_ROS_Cheatsheet
 * Appendix_D_ROS_변수_형태
