@@ -15,11 +15,11 @@
 
 ## 온라인 동영상 강의의 특징
 - 저자 직강 온라인 강좌!
-   ✔ 로봇 운영 체제 (Robot Operating System, ROS) 온라인 강의
-   ✔ 기초부터 ROS 기본 프로그래밍 학습, 시뮬레이터, 실제 로봇에 적용까지!
-   ✔ 책 한권 뚝딱 말아먹을 수 있는 책 전체 분량인 총 13장 분량 + α
-   ✔ 노잼이지만 쉬운 설명을 위해서는 몸개그도 불사!
-   ✔ 강의 자료 및 소스 코드 모두 공개!
+   - ✔ 로봇 운영 체제 (Robot Operating System, ROS) 온라인 강의
+   - ✔ 기초부터 ROS 기본 프로그래밍 학습, 시뮬레이터, 실제 로봇에 적용까지!
+   - ✔ 책 한권 뚝딱 말아먹을 수 있는 책 전체 분량인 총 13장 분량 + α
+   - ✔ 노잼이지만 쉬운 설명을 위해서는 몸개그도 불사!
+   - ✔ 강의 자료 및 소스 코드 모두 공개!
 
 ## 온라인 강의 모음(동영상 14개) 
 - 유튜브 재생 리스트 링크
@@ -47,17 +47,17 @@
    - 12장 서비스 로봇 
    - 13장 매니퓰레이터 
 
-## 부교자재 및 오픈 소프트 소프트웨어
-- 부교자재: TurtleBot3, OpenCR, OpenManipulator
-http://turtlebot3.robotis.com
-http://emanual.robotis.com/docs/en/parts/controller/opencr10/
-http://emanual.robotis.com/docs/en/platform/openmanipulator/
+## 부교자재 및 오픈소스 소프트웨어
+### 부교자재: TurtleBot3, OpenCR, OpenManipulator
+- http://turtlebot3.robotis.com
+- http://emanual.robotis.com/docs/en/parts/controller/opencr10
+- http://emanual.robotis.com/docs/en/platform/openmanipulator
 
-- 오픈 소스: Tutorials, TurtleBot3, OpenCR, OpenManipulator
-https://github.com/ROBOTIS-GIT/ros_tutorials
-https://github.com/ROBOTIS-GIT/turtlebot3
-https://github.com/ROBOTIS-GIT/OpenCR
-https://github.com/ROBOTIS-GIT/open_manipulator
+### 오픈소스: Tutorials, TurtleBot3, OpenCR, OpenManipulator
+- https://github.com/ROBOTIS-GIT/ros_tutorials
+- https://github.com/ROBOTIS-GIT/turtlebot3
+- https://github.com/ROBOTIS-GIT/OpenCR
+- https://github.com/ROBOTIS-GIT/open_manipulator
 
 ## Special Thanks
 - 끝으로 공저자 조한철, 정려운, 임태훈님에게 감사를 드리며, 책 판매에 타격을 줄지도 모를 정도의 컨텐츠를 내놓을 수 있게 해주신 출판사 루비페이퍼 대표님 그리고 이인호 매니저님, 오픈 소스 생태계의 숨은 조력자 김진욱님, 회사 업무시간에도 틈틈히 딴짓(?)을 할 수 있게 승인해주신 김병수 대표님에게 스페셜 땡큐를 보냅니다. :)

@@ -50,6 +50,6 @@
 - 070-8671-2944
 - kjsung@robotis.com
 
-# 8. 배포 리포지토리
+# 10. 배포 리포지토리
 - 본 자료는 하기의 GitHub 주소에서 공식적으로 배포하고 있습니다.
 - https://github.com/robotpilot/ros-seminar
