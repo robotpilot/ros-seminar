@@ -18,10 +18,10 @@
    - 위 1번과 2번의 운영체제 및 ROS 설치가 모두 완료되면 하기의 내용을 설치해주세요.
    - [의존성 소프트웨어 및 터틀봇3 관련 ROS 패키지 설치하기]
    - '6.3 Install Dependent packages' 만 진행할 것
-   - http://emanual.robotis.com/docs/en/platform/turtlebot3/pc_software_setup/#install-dependent-packages
+   - http://emanual.robotis.com/docs/en/platform/turtlebot3/pc_setup/#install-dependent-packages
    - [아두이노 IDE 설치하기]
    - '8.1 ArduinoIDE Settings for OpenCR1.0' 부터 '8.1.5.2 Install OpenCR1.0 Package from Boards Manager' 까지만 진행할 것
-   - http://emanual.robotis.com/docs/en/platform/turtlebot3/opencr1_0_software_setup/
+   - http://emanual.robotis.com/docs/en/platform/turtlebot3/opencr_setup/#opencr-setup
    - [OpenManipulator 관련 설치하기]
    - '2.3.1 ROS' 만 진행할 것
    - http://emanual.robotis.com/docs/en/platform/openmanipulator/#ros
