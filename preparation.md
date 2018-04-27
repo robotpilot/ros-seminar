@@ -13,11 +13,11 @@
     - WiFi, USB, Camera 
     
 1. Ubuntu 16.04.x LTS 64bit(추천) 또는 32bit 설치 (윈도우즈와 멀티부팅 가능)
-   - http://www.ubuntu.com/download/desktop (ISO 파일 받으실 때, 무료) 
+   - http://releases.ubuntu.com/16.04/ubuntu-16.04.4-desktop-amd64.iso (ISO 파일 받으실 때, 무료) 
    - http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-windows (bootable USB를 만들 때, 무료)
    - Ubuntu 를 설치하실 때, 표시 언어는 한국어가 아닌 영문으로 설정해주세요. 한국어로 설치해도 사용상의 문제는 없지만 에러가 났을 경우 에러가 한국어로 나와서 관련 답변들이 잘 검색되지 않습니다.
-   - Ubuntu 를 설치하실 때, 어려움을 겪으시는 분들이 많으신데 '윈도우즈, 우분투, 멀티부팅'  등의 키워드를 검색하시면 다양한 솔루션이 나오니 참고 하시면 될 듯 싶습니다. 
-   - VirtualBox를 이용한 Linux 및 ROS 설치도 가능하지만 일부 교육 과정(시뮬레이션)은 진행할 수 없음을 참고해주세요. 
+   - Ubuntu 를 설치하실 때, 어려움을 겪으시는 분들이 많으신데 '윈도우즈, 우분투, 멀티부팅'  등의 키워드를 검색하시면 다양한 솔루션이 나오니 참고 하시면 될 듯 싶습니다.
+   - VirtualBox를 이용한 Linux 및 ROS 설치도 가능하지만 일부 교육 과정(시뮬레이션)은 진행할 수 없음을 참고해주세요.
    - Ubuntu가 아닌 Linuxe Mint도 사용 가능합니다.
    
 1. Linux 사전 지식
