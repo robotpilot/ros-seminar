@@ -9,7 +9,7 @@
     - Processor: Intel Core i5 or i7 CPU / 2 GHz Dual Core Processor or better
     - RAM: 4GB 
     - Storage: 100GB of free hard drive space
-    - Graphics Card: NVIDIA GeForce GTX 9xx
+    - Graphics Card: NVIDIA GeForce GTX 9xx (for Gaezebo 3D Simulator)
     - WiFi, USB
 
 1. Ubuntu 16.04.x LTS 64bit(추천) 또는 32bit 설치 (윈도우즈와 멀티부팅 가능)
