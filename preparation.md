@@ -6,12 +6,12 @@
 1. PC 사양
     - 사용하는 목적에 따라 다르겠지만 아래 스펙 정도면 될듯 싶습니다.
     - 하기 권장 사양은 3D 시뮬레이터등이 원할히 동작하는 수준이며 이 사양에 못 미쳐도 교육 진행에는 문제 없습니다.
-    - Processor: Intel Core i5 or i7 CPU / 2.0 GHz x 4 Core 
-    - RAM: 8GB 
-    - Storage: HDD or SSD 100GB
+    - Processor: Intel Core i5 or i7 CPU / 2 GHz Dual Core Processor or better
+    - RAM: 4GB 
+    - Storage: 100GB of free hard drive space
     - Graphics Card: NVIDIA GeForce GTX 9xx
-    - WiFi, USB, Camera 
-    
+    - WiFi, USB
+
 1. Ubuntu 16.04.x LTS 64bit(추천) 또는 32bit 설치 (윈도우즈와 멀티부팅 가능)
    - http://releases.ubuntu.com/16.04/ubuntu-16.04.4-desktop-amd64.iso (ISO 파일 받으실 때, 무료) 
    - http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-windows (bootable USB를 만들 때, 무료)
