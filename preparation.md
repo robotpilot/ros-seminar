@@ -28,11 +28,11 @@
 
 1. 강의에서 사용되는 패키지 및 의존성 패키지 설치
    - 위 1번과 2번의 운영체제 및 ROS 설치가 모두 완료되면 하기의 내용을 설치해주세요.
-   - [의존성 소프트웨어 및 터틀봇3 관련 ROS 패키지 설치하기]
-   - '6.3. Install Dependent packages' 만 진행할 것
+   - [의존성 소프트웨어 및 터틀봇3 관련 ROS 패키지 설치하기]
+   - '6.3. Install Dependent packages' 만 진행할 것
    - http://emanual.robotis.com/docs/en/platform/turtlebot3/pc_setup/#install-dependent-packages
-   - [아두이노 IDE 설치하기, 임베디드 시스템과 ROS 연동이 궁금하신분만 설치할 것]
-   - '6.1.1. USB Port Settings' 부터 '6.1.5.2 Install the OpenCR package via Boards Manager' 까지만 진행할 것
+   - [아두이노 IDE 설치하기] (임베디드 시스템과 ROS 연동을 하실분만 설치할 것)
+   - '6.1.1. USB Port Settings' 부터 '6.1.5.2 Install the OpenCR package via Boards Manager' 까지만 진행할 것
    - http://emanual.robotis.com/docs/en/parts/controller/opencr10/#arduino-ide
    - [OpenManipulator 관련 설치하기]
    - '2.3.1. ROS' 만 진행할 것
