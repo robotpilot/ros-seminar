@@ -31,7 +31,7 @@
    - [의존성 소프트웨어 및 터틀봇3 관련 ROS 패키지 설치하기]
    - '6.3. Install Dependent packages' 만 진행할 것
    - http://emanual.robotis.com/docs/en/platform/turtlebot3/pc_setup/#install-dependent-packages
-   - [아두이노 IDE 설치하기] (임베디드 시스템과 ROS 연동을 하실분만 설치할 것)
+   - [아두이노 IDE 설치하기] (임베디드 시스템과 ROS 연동을 하실분만 설치할 것)
    - '6.1.1. USB Port Settings' 부터 '6.1.5.2 Install the OpenCR package via Boards Manager' 까지만 진행할 것
    - http://emanual.robotis.com/docs/en/parts/controller/opencr10/#arduino-ide
    - [OpenManipulator 관련 설치하기]
