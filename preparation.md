@@ -30,14 +30,14 @@
 1. 강의에서 사용되는 패키지 및 의존성 패키지 설치
    - 위 1번과 2번의 운영체제 및 ROS 설치가 모두 완료되면 하기의 내용을 설치해주세요.
    - [의존성 소프트웨어 및 터틀봇3 관련 ROS 패키지 설치하기]
-   - '6.3. Install Dependent packages' 만 진행할 것
-   - http://emanual.robotis.com/docs/en/platform/turtlebot3/pc_setup/#install-dependent-packages
+   - '6.1.3. Install Dependent Packages' 만 진행할 것
+   - http://emanual.robotis.com/docs/en/platform/turtlebot3/pc_setup/#install-dependent-ros-packages
    - [아두이노 IDE 설치하기] (임베디드 시스템과 ROS 연동을 하실분만 설치할 것)
-   - '6.1.1. USB Port Settings' 부터 '6.1.5.2 Install the OpenCR package via Boards Manager' 까지만 진행할 것
+   - '4.1.1. USB Port Settings' 부터 '4.1.5.2 Install the OpenCR package via Boards Manager' 까지만 진행할 것
    - http://emanual.robotis.com/docs/en/parts/controller/opencr10/#arduino-ide
    - [OpenManipulator 관련 설치하기]
-   - '2.3.1. ROS' 만 진행할 것
-   - http://emanual.robotis.com/docs/en/platform/openmanipulator/#ros
+   - '4.1. ROS and Gazebo' 만 진행할 것
+   - http://emanual.robotis.com/docs/en/platform/openmanipulator/#ros-and-gazebo
 
 1. 강의 자료 다운로드 하기 (모든 PDF 파일)
    - https://github.com/robotpilot/ros-seminar
@@ -56,13 +56,13 @@ $ cd ~/catkin_ws && catkin_make
 ```
 ### For Manipulation using OpenManipulator (chapter 13)
 ```
-$ sudo apt-get install ros-kinetic-moveit* ros-kinetic-gazebo* ros-kinetic-industrial-core ros-kinetic-dynamixel-sdk ros-kinetic-ros-controllers ros-kinetic-qt-build ros-kinetic-robotis-math
+$ sudo apt-get install ros-kinetic-ros-controllers ros-kinetic-gazebo* ros-kinetic-moveit* ros-kinetic-dynamixel-sdk ros-kinetic-dynamixel-workbench-toolbox ros-kinetic-industrial-core
 ```
 ```
 $ cd ~/catkin_ws/src
-$ git clone https://github.com/ROBOTIS-GIT/dynamixel-workbench.git
-$ git clone https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs.git
 $ git clone https://github.com/ROBOTIS-GIT/open_manipulator.git
+$ git clone https://github.com/ROBOTIS-GIT/open_manipulator_msgs.git
+$ git clone https://github.com/ROBOTIS-GIT/open_manipulator_simulations.git
 $ cd ~/catkin_ws && catkin_make
 ```
 
