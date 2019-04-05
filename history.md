@@ -2,7 +2,7 @@
 - Ph.D., Kyushu University / [Intelligent Robots & Vision System LAB](http://robotics.ait.kyushu-u.ac.jp/index.html)
 - Senior Research Engineer, [ROBOTIS](http://www.robotis.com/)
 - ROS 개발 경험 (2011~2019, ROS Diamondback버전 부터 ROS 2 Crystal 9년차)
-- ROSCon2014 ~2018, ROSConJP 참여(발표 및 운영위원) 
+- ROSCon2014 ~2018, ROSConJP2018 참여 (발표 및 운영위원) 
 - ROS standard platform robot: [TurtleBot3](https://www.turtlebot.com/) 개발
 - [ROS Robot Programming(한국,일본,중국어,영어) 관련 서적 다수](http://robotpilot.net/#publications)
 - 한국로봇산업진흥원 로봇융복합 산업인력양성 재작자교육 강사 (2016~2019, 4년차)
