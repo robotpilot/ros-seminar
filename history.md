@@ -1,4 +1,4 @@
-# 강사 표윤석
+# 강사 [표윤석](http://robotpilot.net/)
 - Ph.D., Kyushu University / [Intelligent Robots & Vision System LAB](http://robotics.ait.kyushu-u.ac.jp/index.html)
 - Senior Research Engineer, [ROBOTIS](http://www.robotis.com/)
 - ROS 개발 경험 (2011~2019, ROS Diamondback버전 부터 ROS 2 Crystal 9년차)
