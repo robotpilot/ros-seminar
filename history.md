@@ -1,3 +1,14 @@
+# 강사 표윤석
+- Ph.D., Kyushu University / [Intelligent Robots & Vision System LAB](http://robotics.ait.kyushu-u.ac.jp/index.html)
+- Senior Research Engineer, [ROBOTIS](http://www.robotis.com/)
+- ROS 개발 경험 (2011~2019, ROS Diamondback버전 부터 ROS 2 Crystal 9년차)
+- ROSCon2014 ~2018, ROSConJP 참여(발표 및 운영위원) 
+- ROS standard platform robot: [TurtleBot3](https://www.turtlebot.com/) 개발
+- [ROS Robot Programming(한국,일본,중국어,영어) 관련 서적 다수](http://robotpilot.net/#publications)
+- 한국로봇산업진흥원 로봇융복합 산업인력양성 재작자교육 강사 (2016~2019, 4년차)
+- [The 10 most influential people in ROS in 2019](http://www.theconstructsim.com/top-10-influential-people-in-ros/)
+- [ROS 2 TSC(Technical Steering Committee) members](https://discourse.ros.org/t/introducing-the-ros-2-technical-steering-committee/6132)
+
 # ROS 강의
 - 2011.04.22: 첫 블로그 포스팅 http://passionvirus.blog.me/80128764503
 - 2013.12.22: 제1회 오픈 로보틱스 세미나 제6세션 에서 ROS 첫 소개 http://cafe.naver.com/openrt/3222
@@ -8,12 +19,12 @@
 - 2015.11.08: 제2회 ROS 튜토리얼 세미나 http://cafe.naver.com/openrt/12228
 
 # 16시간 마라톤급 ROS 강의
-- 2016년 04월 23일~24일 16시간 마라톤급 ROS 강의 1차 대구 로봇산업진흥원 (\*산업인력양성)
+- 2016년 04월 23일~24일 16시간 마라톤급 ROS 강의 1차 대구 한국로봇산업진흥원 (\*산업인력양성)
 - 2016년 05월 28일~29일 16시간 마라톤급 ROS 강의 2차 서울 로보티즈 (\*산업인력양성)
 - 2016년 06월 18일~19일 16시간 마라톤급 ROS 강의 3차 서울 로보티즈 (\*산업인력양성)
 - 2016년 07월 12일 16시간 마라톤급 ROS 강의 번외편 "ROS 엄마/아빠 특별 강연" (\*일반)
 - 2016년 07월 16일~17일 16시간 마라톤급 ROS 강의 4차 서울 서울대 (\*일반)
-- 2016년 09월 03일~04일 16시간 마라톤급 ROS 강의 5차 대구 로봇산업진흥원 (\*산업인력양성)
+- 2016년 09월 03일~04일 16시간 마라톤급 ROS 강의 5차 대구 한국로봇산업진흥원 (\*산업인력양성)
 - 2016년 11월 12일~13일 16시간 마라톤급 ROS 강의 6차 서울 로보티즈 (\*산업인력양성)
 - 2017년 01월 08일 16시간 마라톤급 ROS 강의 번외편 "ROS for Teenagers" (\*일반)
 - 2017년 01월 14일~15일 16시간 마라톤급 ROS 강의 7차 서울 로보티즈 (\*산업인력양성)
@@ -35,9 +46,12 @@
 - 2018년 09월 08일~09일 16시간 마라톤급 ROS 강의 17차 서울 로보티즈 (\*산업인력양성)
 - 2018년 11월 03일~04일 16시간 마라톤급 ROS 강의 18차 서울 로보티즈 (\*일반)
 - 2019년 03월 30일~31일 16시간 마라톤급 ROS 강의 19차 서울 로보티즈 (\*산업인력양성)
+- 2019년 04월 06일 16시간 마라톤급 ROS 강의 20차 1일 서울 로보티즈 (\*산업인력양성)
+- 2019년 04월 13일 16시간 마라톤급 ROS 강의 20차 2일 서울 로보티즈 (\*산업인력양성)
 
 - \***로봇융복합 산업인력양성 사업**: 한국로봇산업진흥원 2016~2019년 로봇산업계 재직자 훈련과정
 - \***일반**: 중고등, 대학생, 일반인 등 누구나 참여가능한 강의 형태
+- 비정기성 ROS 모임 세미나 및 특정 회사 내부 세미나 제외됨
 
 # 로봇 운영체제 관련 8권의 책 출판
 - http://robotpilot.net/#publications
