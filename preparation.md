@@ -36,8 +36,8 @@
    - '4.1.1. USB Port Settings' 부터 '4.1.5.2 Install the OpenCR package via Boards Manager' 까지만 진행할 것
    - http://emanual.robotis.com/docs/en/parts/controller/opencr10/#arduino-ide
    - [OpenManipulator 관련 설치하기]
-   - '4.1. ROS and Gazebo' 만 진행할 것
-   - http://emanual.robotis.com/docs/en/platform/openmanipulator/#ros-and-gazebo
+   - '5.3. Install ROS Packages' 만 진행할 것
+   - http://emanual.robotis.com/docs/en/platform/openmanipulator_x/ros_setup/#install-ubuntu-on-pc
 
 1. 강의 자료 다운로드 하기 (모든 PDF 파일)
    - https://github.com/robotpilot/ros-seminar
@@ -56,13 +56,17 @@ $ cd ~/catkin_ws && catkin_make
 ```
 ### For Manipulation using OpenManipulator (chapter 13)
 ```
-$ sudo apt-get install ros-kinetic-ros-controllers ros-kinetic-gazebo* ros-kinetic-moveit* ros-kinetic-dynamixel-sdk ros-kinetic-dynamixel-workbench-toolbox ros-kinetic-industrial-core
+$ sudo apt-get install ros-kinetic-ros-controllers ros-kinetic-gazebo* ros-kinetic-moveit* ros-kinetic-industrial-core
 ```
 ```
 $ cd ~/catkin_ws/src
+$ git clone https://github.com/ROBOTIS-GIT/DynamixelSDK.git
+$ git clone https://github.com/ROBOTIS-GIT/dynamixel-workbench.git
+$ git clone https://github.com/ROBOTIS-GIT/dynamixel-workbench-msgs.git
 $ git clone https://github.com/ROBOTIS-GIT/open_manipulator.git
 $ git clone https://github.com/ROBOTIS-GIT/open_manipulator_msgs.git
 $ git clone https://github.com/ROBOTIS-GIT/open_manipulator_simulations.git
+$ git clone https://github.com/ROBOTIS-GIT/robotis_manipulator.git
 $ cd ~/catkin_ws && catkin_make
 ```
 
