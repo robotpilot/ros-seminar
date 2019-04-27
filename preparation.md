@@ -72,3 +72,8 @@ $ cd ~/catkin_ws && catkin_make
 
 * Ubuntu 설치 및 ROS 설치에 관련하여 질문 사항이 있으시면 pyo@robotis.com 로 연락주세요.
 * Ubuntu 및 ROS는 교육 전 설치가 안되면 교육 진행에 불편함이 있으니 꼭 미리 설치해주시기 바랍니다.
+
+# [기타]
+## [임베디드 예제 코드]
+- [turtlebot3_core.ino](https://github.com/ROBOTIS-GIT/OpenCR/blob/master/arduino/opencr_arduino/opencr/libraries/turtlebot3/examples/turtlebot3_burger/turtlebot3_core/turtlebot3_core.ino)
+- [turtlebot3_sensor.cpp](https://github.com/ROBOTIS-GIT/OpenCR/blob/master/arduino/opencr_arduino/opencr/libraries/turtlebot3/src/turtlebot3/turtlebot3_sensor.cpp)
