@@ -6,40 +6,39 @@
 $ sudo apt install joystick jstest-gtk ros-kinetic-joy
 $ sudo apt purge ros-kinetic-teleop-twist-joy
 $ cd ~/catkin_ws/src
-$ git clone https://github.com/ros-teleop/teleop_twist_joy.git
+$ git clone https://github.com/robotpilot/teleop_twist_joy.git
 $ cd ~/catkin_ws && catkin_make
 ```
 
-## Modify joystick mapping
-- `~/catkin_ws/src/teleop_twist_joy/config/ps3.config.yaml`
-```yaml
-enable_button: 5  # R1 button
-enable_turbo_button: 4  # L1 button
-
-axis_linear: 1
-scale_linear: 0.7
-scale_linear_turbo: 1.5
-
-axis_angular: 3
-scale_angular: 0.4
-scale_angular_turbo: 1.0
-```
-
-## Set oystick(Dual Shock 3) controller
+## Set joystick(Dual Shock 3,4) controller
 1. 블루투스 관리 툴(예: blueberry 또는 blueman)을 실행한다.
-1. DS3의 PS(버튼10번) 버튼을 누른다: 페어링 모드 진입
-1. USB로 DS3와 PC를 유선으로 연결한다.
+1. DS3,4의 PS(버튼10번) 버튼을 누른다: 페어링 모드 진입
+1. USB로 DS3,4와 PC를 유선으로 연결한다.
 1. 블루투스 관리 툴(예: blueberry 또는 blueman)에서 페어링 허가 여부를 물으면 허락한다.
-1. USB 연결을 제거 후, DS3의 PS(버튼10번) 버튼을 누르고 블루투스 관리 툴에서 DS3를 찾아 블루투스로 연결한다.
-1. 하기의 joystick configuration tool로 키를 확인한다.
+1. USB 연결을 제거 후, DS3,4의 PS(버튼10번) 버튼을 누르고 블루투스 관리 툴에서 DS3,4를 찾아 블루투스로 연결한다.
+1. 하기의 joystick configuration tool로 키를 확인하고, Calibration 기능을 통해 모든 축과 버튼을 셋팅한다.
 ```bash
 $ jstest-gtk 
 ```
 
-## Run teleop node
+## Check joystick key map
+- [ds3.config.yaml](https://github.com/robotpilot/teleop_twist_joy/blob/melodic-devel/config/ds3.config.yaml)
+- [ds4.config.yaml](https://github.com/robotpilot/teleop_twist_joy/blob/melodic-devel/config/ds4.config.yaml)
+
+## Run teleop node (DS3,4)
 - joystick device -> joy_node (joy, sensor_msgs/Joy) -> teleop_twist_joy (cmd_vel, geometry_msgs/Twist)
 ```bash
-$ roslaunch teleop_twist_joy teleop.launch
+$ roslaunch teleop_twist_joy teleop.launch joy_config:=ds3
+or
+$ roslaunch teleop_twist_joy teleop.launch joy_config:=ds4
+```
+
+## Test teleop node (DS3,4) with turtlesim_node
+```bash
+$ rosrun turtlesim turtlesim_node
+$ roslaunch teleop_twist_joy teop.launch joy_config:=ds3 __ns:=turtle1
+or
+$ roslaunch teleop_twist_joy teop.launch joy_config:=ds4 __ns:=turtle1
 ```
 
 # 참고 사항
