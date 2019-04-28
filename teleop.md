@@ -36,9 +36,9 @@ $ roslaunch teleop_twist_joy teleop.launch joy_config:=ds4
 ## Test teleop node (DS3,4) with turtlesim_node
 ```bash
 $ rosrun turtlesim turtlesim_node
-$ roslaunch teleop_twist_joy teop.launch joy_config:=ds3 __ns:=turtle1
+$ roslaunch teleop_twist_joy teleop.launch joy_config:=ds3 __ns:=turtle1
 or
-$ roslaunch teleop_twist_joy teop.launch joy_config:=ds4 __ns:=turtle1
+$ roslaunch teleop_twist_joy teleop.launch joy_config:=ds4 __ns:=turtle1
 ```
 
 # 참고 사항
