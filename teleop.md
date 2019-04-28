@@ -71,7 +71,7 @@ $ roslaunch teleop_twist_joy teleop.launch joy_config:=ds4 __ns:=turtle1
 or
 $ roslaunch teleop_twist_joy teleop.launch joy_config:=xbox __ns:=turtle1
 or
-$ roslaunch teleop_twist_joy teleop.launch joy_config:=fly5
+$ roslaunch teleop_twist_joy teleop.launch joy_config:=fly5 __ns:=turtle1
 ```
 
 # RC 100 (Bluetooth module BT410 with OpenCR) 
