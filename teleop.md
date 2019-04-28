@@ -1,3 +1,10 @@
+# Tele-operation
+- Keyboard
+- Joystick (DS3, DS4, XBOX, Wii Remote)
+- Bluetooth module with embedded board
+- Android APP
+- Web Tools
+
 # Joystick (DS3 / DS4 / XBOX)
 
 ## Install joystick driver, joystick configuration tool, ROS joystick package
