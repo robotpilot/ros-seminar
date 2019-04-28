@@ -36,7 +36,7 @@ $ jstest-gtk
 ```
 
 ## Set joystick(Mad Catz F.L.Y.5 Stick) controller
-1. 유선 Mad Catz F.L.Y.5 Stick 조종기는 USB로 컴퓨터와 유선으로 연결한다.
+1. 유선 Mad Catz F.L.Y.5 Stick (이하 FLY5) 조종기는 USB로 컴퓨터와 유선으로 연결한다.
 1. 하기의 joystick configuration tool로 키를 확인하고, Calibration 기능을 통해 모든 축과 버튼을 셋팅한다.
 ```bash
 $ jstest-gtk 
@@ -50,7 +50,7 @@ $ jstest-gtk
 - [xobx.config.yaml](https://github.com/robotpilot/teleop_twist_joy/blob/melodic-devel/config/xbox.config.yaml)
 - [fly5.config.yaml](https://github.com/robotpilot/teleop_twist_joy/blob/melodic-devel/config/fly5.config.yaml)
 
-## Run teleop node (DS3,4,XBOX)
+## Run teleop node (DS3,4,XBOX,FLY5)
 - joystick device -> joy_node (joy, sensor_msgs/Joy) -> teleop_twist_joy (cmd_vel, geometry_msgs/Twist)
 ```bash
 $ roslaunch teleop_twist_joy teleop.launch joy_config:=ds3
@@ -58,9 +58,11 @@ or
 $ roslaunch teleop_twist_joy teleop.launch joy_config:=ds4
 or
 $ roslaunch teleop_twist_joy teleop.launch joy_config:=xbox
+or
+$ roslaunch teleop_twist_joy teleop.launch joy_config:=fly5
 ```
 
-## Test teleop node (DS3,4,XBOX) with turtlesim_node
+## Test teleop node (DS3,4,XBOX,FLY5) with turtlesim_node
 ```bash
 $ rosrun turtlesim turtlesim_node
 $ roslaunch teleop_twist_joy teleop.launch joy_config:=ds3 __ns:=turtle1
@@ -68,11 +70,7 @@ or
 $ roslaunch teleop_twist_joy teleop.launch joy_config:=ds4 __ns:=turtle1
 or
 $ roslaunch teleop_twist_joy teleop.launch joy_config:=xbox __ns:=turtle1
-```
-
-## Run teleop node (Mad Catz F.L.Y.5 Stick)
-- joystick device -> joy_node (joy, sensor_msgs/Joy) -> teleop_twist_joy (cmd_vel, geometry_msgs/Twist)
-```bash
+or
 $ roslaunch teleop_twist_joy teleop.launch joy_config:=fly5
 ```
 
