@@ -30,7 +30,11 @@ $ roslaunch realsense2_camera rs_camera.launch filters:=pointcloud
 ```
 ```bash
 $ rviz
-> fixed frame = 
 ```
+- 디스플레이 추가
+  - Displays > Add > PointCloud2
+- 디스플레이 옵션 설정
+  - Displays > Global Options > Fixed frame = camera_link
+  - Displays > PointCloud2 > Topic = /camera/depth/color/points
 
 
