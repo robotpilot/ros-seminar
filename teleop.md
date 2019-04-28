@@ -41,6 +41,14 @@ or
 $ roslaunch teleop_twist_joy teleop.launch joy_config:=ds4 __ns:=turtle1
 ```
 
+# Teleop using Android APP
+- [ROS Control](https://play.google.com/store/apps/details?id=com.robotca.ControlApp)
+- [ROS Teleop Controller AuTURBO](https://play.google.com/store/apps/details?id=org.ros.android.controllerSample)
+- [PR2 Teleop Interface](https://play.google.com/store/apps/details?id=uniandes.disc.imagine.robotarm_app.teleop)
+
+# Teleop using web tools 
+- [Robot Web Tools](http://robotwebtools.org/)
+
 # 참고 사항
 ## 원격 제어를 위한 정보
 - http://wiki.ros.org/joy
