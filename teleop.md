@@ -1,11 +1,11 @@
 # Tele-operation
 - Keyboard
-- Joystick (DS3, DS4, XBOX, Wii Remote)
+- Joystick (DS3, DS4, XBOX, Wii Remote, Mad Catz F.L.Y.5 Stick)
 - Bluetooth module with embedded board
 - Android APP
 - Web Tools
 
-# Joystick (DS3 / DS4 / XBOX)
+# Joystick (DS3 / DS4 / XBOX / Mad Catz F.L.Y.5 Stick)
 
 ## Install joystick driver, joystick configuration tool, ROS joystick package
 - 조이스틱 관련 패키지 설치 (바이너리 설치, 삭제, 소스코드 설치 등)
@@ -35,12 +35,20 @@ $ jstest-gtk
 $ jstest-gtk 
 ```
 
+## Set joystick(Mad Catz F.L.Y.5 Stick) controller
+1. 유선 Mad Catz F.L.Y.5 Stick 조종기는 USB로 컴퓨터와 유선으로 연결한다.
+1. 하기의 joystick configuration tool로 키를 확인하고, Calibration 기능을 통해 모든 축과 버튼을 셋팅한다.
+```bash
+$ jstest-gtk 
+```
+
 ## Check joystick key map
 - 기본 키맵으로는 R1(DS) 또는 RB(XBOX)가 enable 버튼이고, axis #1이 병진속도 / axis #3이 회전속도 키로 맵핑해두었음
 - 자세한 키맵 및 설정 변경은 하기 내용 참고.
 - [ds3.config.yaml](https://github.com/robotpilot/teleop_twist_joy/blob/melodic-devel/config/ds3.config.yaml)
 - [ds4.config.yaml](https://github.com/robotpilot/teleop_twist_joy/blob/melodic-devel/config/ds4.config.yaml)
 - [xobx.config.yaml](https://github.com/robotpilot/teleop_twist_joy/blob/melodic-devel/config/xbox.config.yaml)
+- [fly5.config.yaml](https://github.com/robotpilot/teleop_twist_joy/blob/melodic-devel/config/fly5.config.yaml)
 
 ## Run teleop node (DS3,4,XBOX)
 - joystick device -> joy_node (joy, sensor_msgs/Joy) -> teleop_twist_joy (cmd_vel, geometry_msgs/Twist)
@@ -60,6 +68,12 @@ or
 $ roslaunch teleop_twist_joy teleop.launch joy_config:=ds4 __ns:=turtle1
 or
 $ roslaunch teleop_twist_joy teleop.launch joy_config:=xbox __ns:=turtle1
+```
+
+## Run teleop node (Mad Catz F.L.Y.5 Stick)
+- joystick device -> joy_node (joy, sensor_msgs/Joy) -> teleop_twist_joy (cmd_vel, geometry_msgs/Twist)
+```bash
+$ roslaunch teleop_twist_joy teleop.launch joy_config:=fly5
 ```
 
 # RC 100 (Bluetooth module BT410 with OpenCR) 
