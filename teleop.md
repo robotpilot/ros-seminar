@@ -55,6 +55,9 @@ or
 $ roslaunch teleop_twist_joy teleop.launch joy_config:=xbox __ns:=turtle1
 ```
 
+# RC 100 (Bluetooth module BT410 with OpenCR) 
+- http://emanual.robotis.com/docs/en/platform/turtlebot3/teleoperation/#rc100
+
 # Teleop using Android APP
 - [ROS Control](https://play.google.com/store/apps/details?id=com.robotca.ControlApp)
 - [ROS Teleop Controller AuTURBO](https://play.google.com/store/apps/details?id=org.ros.android.controllerSample)
