@@ -7,7 +7,7 @@
 - [ROS Robot Programming(한국,일본,중국어,영어) 관련 서적 다수](http://robotpilot.net/#publications)
 - 한국로봇산업진흥원 로봇융복합 산업인력양성 재작자교육 강사 (2016~2019, 4년차)
 - [The 10 most influential people in ROS in 2019](http://www.theconstructsim.com/top-10-influential-people-in-ros/)
-- [ROS 2 TSC(Technical Steering Committee) members](https://discourse.ros.org/t/introducing-the-ros-2-technical-steering-committee/6132)
+- [ROS 2 TSC(Technical Steering Committee) members](https://index.ros.org/doc/ros2/Governance/)
 
 # ROS 강의
 - 2011.04.22: 첫 블로그 포스팅 http://passionvirus.blog.me/80128764503
@@ -48,6 +48,9 @@
 - 2019년 03월 30일~31일 16시간 마라톤급 ROS 강의 19차 서울 로보티즈 (\*산업인력양성)
 - 2019년 04월 06일 16시간 마라톤급 ROS 강의 20차 1일 서울 로보티즈 (\*산업인력양성)
 - 2019년 04월 13일 16시간 마라톤급 ROS 강의 20차 2일 서울 로보티즈 (\*산업인력양성)
+- 2019년 04월 27일~28일 16시간 마라톤급 ROS 강의 21차 서울 로보티즈 (\*산업인력양성)
+- 2019년 05월 25일~26일 16시간 마라톤급 ROS 강의 22차 서울 로보티즈 (\*산업인력양성)
+
 
 - \***로봇융복합 산업인력양성 사업**: 한국로봇산업진흥원 2016~2019년 로봇산업계 재직자 훈련과정
 - \***일반**: 중고등, 대학생, 일반인 등 누구나 참여가능한 강의 형태
