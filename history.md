@@ -66,6 +66,7 @@
 - https://github.com/robotpilot/ros-seminar
 
 # 무료 공개 동영상 강의 자료
+- https://github.com/robotpilot/ros-seminar/blob/master/online_course.md
 - https://www.youtube.com/playlist?list=PLRG6WP3c31_VIFtFAxSke2NG_DumVZPgw
 - https://cafe.naver.com/openrt/17642
 - https://github.com/robotpilot/ros-seminar/blob/master/online_course.md
