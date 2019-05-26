@@ -1,3 +1,15 @@
+# Robot SDK (Intel)
+- https://discourse.ros.org/t/robot-sdk-for-ros2/8900
+
+# AWS RoboMaker (Amazon)
+- https://aws.amazon.com/robomaker/
+
+# H-ROS (Acutronic Robotics)
+- https://acutronicrobotics.com
+
+# Autoware (Tier-IV)
+- https://www.autoware.org
+
 # Autonomous Driving
 
 ## Simulated Car(Prius) Demo (Toyota and Open Robotics)
