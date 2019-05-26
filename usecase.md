@@ -1,6 +1,6 @@
 # ROS repositories
-- http://repositories.ros.org/status_page
-- http://repo.ros2.org/status_page/
+- ROS 1: http://repositories.ros.org/status_page/
+- ROS 2: http://repo.ros2.org/status_page/
 
 # Robot SDK (Intel)
 - https://discourse.ros.org/t/robot-sdk-for-ros2/8900
