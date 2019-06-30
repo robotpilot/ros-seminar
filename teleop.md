@@ -93,7 +93,7 @@ $ roslaunch teleop_twist_joy teleop.launch joy_config:=fly5 __ns:=turtle1
 ## Test teleop node (X-55 Rhino) with turtlesim_node
 ```bash
 $ rosrun turtlesim turtlesim_node
-$ roslaunch teleop_twist_joy multiple_teleop.launch
+$ roslaunch teleop_twist_joy multiple_teleop.launch __ns:=turtle1
 ```
 
 # RC 100 (Bluetooth module BT410 with OpenCR) 
