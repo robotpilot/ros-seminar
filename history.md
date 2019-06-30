@@ -6,7 +6,7 @@
 - ROS standard platform robot: [TurtleBot3](https://www.turtlebot.com/) 개발
 - [ROS Robot Programming(한국,일본,중국어,영어) 관련 서적 다수](http://robotpilot.net/#publications)
 - 한국로봇산업진흥원 로봇융복합 산업인력양성 재작자교육 강사 (2016~2019, 4년차)
-- 기업 특화 로봇 운영 체제 컨설팅 및 교육 (2015~2018, 400여명)
+- 기업 특화 로봇 운영 체제 컨설팅 및 교육 (2014~2018, 400여명)
 - [The 10 most influential people in ROS in 2019](http://www.theconstructsim.com/top-10-influential-people-in-ros/)
 - [ROS 2 TSC(Technical Steering Committee) members](https://index.ros.org/doc/ros2/Governance/)
 
