@@ -8,6 +8,7 @@
 - 한국로봇산업진흥원 로봇융복합 산업인력양성 재작자교육 강사 (2016~2019, 4년차)
 - 기업 특화 로봇 운영 체제 컨설팅 및 교육 (2014~2018, 400여명)
 - [The 10 most influential people in ROS in 2019](http://www.theconstructsim.com/top-10-influential-people-in-ros/)
+- [Top 10 ROS Based Robotics Companies in 2019](http://www.theconstructsim.com/top-10-robotics-companies-2019-ros-based/)
 - [ROS 2 TSC(Technical Steering Committee) members](https://index.ros.org/doc/ros2/Governance/)
 
 # ROS 강의
