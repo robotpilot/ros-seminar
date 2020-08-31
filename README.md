@@ -49,7 +49,6 @@
 - 표성우
 - 070-8671-2629
 - swpyo@robotis.com
-
 - 성기재(KJ Sung)
 - 070-8671-2944
 - kjsung@robotis.com
