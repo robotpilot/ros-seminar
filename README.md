@@ -49,9 +49,6 @@
 - 표성우
 - 070-8671-2629
 - swpyo@robotis.com
-- 성기재(KJ Sung)
-- 070-8671-2944
-- kjsung@robotis.com
 
 # 10. 배포 리포지토리
 - 본 자료는 하기의 GitHub 주소에서 공식적으로 배포하고 있습니다.
